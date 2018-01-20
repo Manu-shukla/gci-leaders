@@ -28,7 +28,7 @@ export default function init() {
       .getElementsByClassName('progress-bar')[0]
       .setAttribute(
         'style',
-        'width:' + percentagePassed + '%;height: 8px;border-radius: 100px;'
+        'width:' + percentagePassed + '%;height: 12px;border-radius: 100px;'
       )
     return $.i18n(
       'passed',
